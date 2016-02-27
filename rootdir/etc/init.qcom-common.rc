@@ -247,7 +247,7 @@ on post-fs-data
 
     # Touchscreen
     chown system radio /proc/touchpanel/double_tap_enable
-    chmod 0660 /proc/touchpanel/double_tap_enable
+    chmod 0664 /proc/touchpanel/double_tap_enable
 
     chown root system /proc/touchpanel/camera_enable
     chmod 0660 /proc/touchpanel/camera_enable
