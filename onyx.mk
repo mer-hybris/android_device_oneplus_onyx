@@ -254,7 +254,8 @@ PRODUCT_PACKAGES += \
     hostapd.deny
 
 PRODUCT_PACKAGES += \
-    wcnss_service
+    wcnss_service \
+    libwcnss_qmi
 
 # Misc dependency packages
 PRODUCT_PACKAGES += \
@@ -309,7 +310,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.georv=true \
     ro.qti.sensors.smgr_mag_cal_en=true \
     ro.qti.sensors.step_detector=true \
-    ro.qti.sensors.step_counter=true
+    ro.qti.sensors.step_counter=true \
     ro.qti.sensors.tap=false \
     ro.qti.sensors.facing=false \
     ro.qti.sensors.tilt=false \
