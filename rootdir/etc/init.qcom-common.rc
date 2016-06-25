@@ -533,6 +533,7 @@ service audiod /system/bin/audiod
    group system
 
 service wcnss-service /system/bin/wcnss_service
+    setenv LD_PRELOAD /usr/libexec/droid-hybris/system/lib/libwcnss_qmi.so
     class main
     user system
     group system wifi qcom_diag radio
