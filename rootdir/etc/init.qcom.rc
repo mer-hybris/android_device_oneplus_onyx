@@ -37,6 +37,9 @@ on init
     symlink /storage/emulated/legacy /storage/sdcard0
     symlink /mnt/shell/emulated/0 /storage/emulated/legacy
 
+on charger
+    load_all_props
+    start qcom-post-boot
 
 on boot
 	export_rc /system/etc/init.cne.rc
